@@ -2,7 +2,7 @@ import React from 'react'
 
 const ProjectCard = ({ project }) => {
   return (
-    <div className='w-full border border-[#ffffff30] flex flex-col sm:flex-row items-start sm:items-center justify-between cursor-pointer p-3 sm:p-4 rounded-lg gap-3 sm:gap-2'>
+    <div className='w-full border border-[#ffffff30] hover:border-[#ffffff80] transition-all flex flex-col sm:flex-row items-start sm:items-center justify-between cursor-pointer p-3 sm:p-4 rounded-lg gap-3 sm:gap-2'>
         <div className='flex-1'>
           <h3 className='text-lg sm:text-xl font-bold'>{project.name}</h3>
           <p className='text-xs sm:text-sm text-gray-300 mt-1'>{project.description}</p>
