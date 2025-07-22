@@ -1,0 +1,25 @@
+@import 'tailwindcss';
+
+@font-face {
+    font-family: caudex;
+    src: url(./fonts/Caudex/Caudex-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: inria;
+    src: url(./fonts/Inria_Serif/InriaSerif-Regular.ttf) format('truetype');
+}
+
+@theme{
+    --color-bg: #111;
+    --color-secondary: #916109;
+    --color-text: #eee;
+    --font-caudex: 'caudex';
+    --font-inria: 'inria';
+}
+
+body{
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-caudex);
+}
