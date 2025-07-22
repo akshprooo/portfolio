@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: caudex;
-    src: url(./public/fonts/Caudex/Caudex-Regular.ttf) format('truetype');
+    src: url(/public/fonts/Caudex/Caudex-Regular.ttf) format('truetype');
 }
 
 @font-face {
     font-family: inria;
-    src: url(./fonts/Inria_Serif/InriaSerif-Regular.ttf) format('truetype');
+    src: url(/public/fonts/Inria_Serif/InriaSerif-Regular.ttf) format('truetype');
 }
 
 @theme{
