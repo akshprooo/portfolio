@@ -21,12 +21,11 @@ const Intro = () => {
             </div>
 
             <div className='CTA flex flex-col justify-center items-center lg:items-end w-full gap-3 lg:gap-2 order-1 lg:order-2'>
-                <button className='bg-[#000000] text-white px-6 sm:px-8 lg:px-9 cursor-pointer py-3 sm:py-4 rounded-lg text-lg sm:text-xl lg:text-2xl font-inria tracking-wide flex items-center gap-1.5 w-full sm:w-auto justify-center lg:justify-start'>
-                    Contact Me <MdArrowOutward size={24} className='sm:w-[30px] sm:h-[30px]' />
-                </button>
-                <button className='bg-[#000000] text-white px-6 sm:px-8 lg:px-9 cursor-pointer py-3 sm:py-4 rounded-lg text-lg sm:text-xl lg:text-2xl font-inria tracking-wide flex items-center gap-1.5 w-full sm:w-auto justify-center lg:justify-start'>
-                    Work With Me <MdArrowOutward size={24} className='sm:w-[30px] sm:h-[30px]' />
-                </button>
+                <a href="mailto:akshprooo@gmail.com">
+                    <button className='bg-[#000000] text-white px-6 sm:px-8 lg:px-9 cursor-pointer py-3 sm:py-4 rounded-lg text-lg sm:text-xl lg:text-2xl font-inria tracking-wide flex items-center gap-1.5 w-full sm:w-auto justify-center lg:justify-start'>
+                        Work With Me <MdArrowOutward size={24} className='sm:w-[30px] sm:h-[30px]' />
+                    </button>
+                </a>
             </div>
         </div>
     </div>
