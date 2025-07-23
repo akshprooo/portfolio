@@ -16,7 +16,7 @@ const Intro = () => {
           <h1 className='text-4xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-8xl 2xl:text-9xl font-bold leading-tight whitespace-nowrap overflow-hidden text-white drop-shadow-lg'>
             Aksh Tiwari
           </h1>
-          <p className='text-base sm:text-lg md:text-xl lg:text-xl xl:text-2xl 2xl:text-3xl max-w-prose opacity-95 text-white/95 leading-relaxed drop-shadow-sm'>
+          <p className='text-base sm:text-lg md:text-xl lg:text-xl xl:text-1xl 2xl:text-3xl max-w-prose opacity-95 text-white/95 leading-relaxed drop-shadow-sm'>
             {info.about || "I'm a passionate frontend developer who loves creating beautiful, responsive web experiences. With a keen eye for design and attention to detail, I transform ideas into engaging digital solutions that users love to interact with."}
           </p>
         </div>
