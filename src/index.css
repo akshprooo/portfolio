@@ -1,5 +1,7 @@
 @import 'tailwindcss';
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 @font-face {
     font-family: caudex;
     src: url(/public/fonts/Caudex/Caudex-Regular.ttf) format('truetype');
@@ -10,11 +12,12 @@
     src: url(/public/fonts/Inria_Serif/InriaSerif-Regular.ttf) format('truetype');
 }
 
+
 @theme{
     --color-bg: #111;
     --color-secondary: #916109;
     --color-text: #eee;
-    --font-caudex: 'caudex';
+    --font-caudex: 'Noto Sans', sans-serif;
     --font-inria: 'inria';
 }
 
