@@ -8,11 +8,14 @@ import info from '../data/MyInfo.js'
 const Intro = () => {
   return (
     <div className='flex flex-col lg:flex-row items-center justify-between w-full min-h-[56vh] lg:h-[56vh] bg-gradient-to-br from-[#cc9329] via-[#cc9329b7] to-[#b8851f] p-3 sm:p-5 lg:p-3 rounded-2xl overflow-hidden relative shadow-2xl'>
-      {/* Subtle background pattern overlay */}
       <div className='absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.1)_1px,transparent_1px)] bg-[length:20px_20px]'></div>
       
       <div className='w-full lg:w-1/2 h-auto lg:h-full py-3 px-2 sm:px-5 flex flex-col justify-center lg:justify-between items-center lg:items-start text-center lg:text-left relative z-10'>
         <div className='flex flex-col gap-3 lg:gap-4'>
+          <div className='flex items-center gap-3 w-full justify-center lg:justify-start'>
+            <div className='h-5 w-5 bg-green-700 rounded-full' style={{boxShadow: '0 0 0 5px rgba(23, 221, 56, 0.2)'}}></div>
+            <h2 className='text-green-600 border-1 border-white/20 bg-black/60 p-2 rounded-lg text-lg' >Available For Work!</h2>
+          </div>
           <h1 className='text-4xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-8xl 2xl:text-9xl font-bold leading-tight whitespace-nowrap overflow-hidden text-white drop-shadow-lg'>
             Aksh Tiwari
           </h1>
