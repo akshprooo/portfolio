@@ -16,7 +16,7 @@ const Intro = () => {
             <div className='h-5 w-5 bg-green-700 rounded-full' style={{boxShadow: '0 0 0 5px rgba(23, 221, 56, 0.2)'}}></div>
             <h2 className='text-green-600 border-1 border-white/20 bg-black/60 p-2 rounded-lg text-lg' >Available For Work!</h2>
           </div>
-          <h1 className='text-4xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-8xl 2xl:text-9xl font-bold leading-tight whitespace-nowrap overflow-hidden text-white drop-shadow-lg'>
+          <h1 className='text-4xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-8xl 2xl:text-9xl font-bold leading-none whitespace-nowrap overflow-hidden text-white drop-shadow-lg'>
             Aksh Tiwari
           </h1>
           <p className='text-base sm:text-lg md:text-xl lg:text-xl xl:text-2xl 2xl:text-3xl max-w-prose opacity-95 text-white/95 drop-shadow-sm'>
