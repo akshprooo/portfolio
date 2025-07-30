@@ -1,4 +1,4 @@
-const greet = ()=>{
+const greet = () => {
     console.log("Hello, welcome to the console!");
     console.log('But what the actual hell are you doing here in the console?');
     console.log('This is not a place for you to be, go back to the website!');
