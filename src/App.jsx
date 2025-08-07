@@ -3,6 +3,7 @@ import Intro from './components/Intro'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
 import greet from './consoleThings'
+import Contact from './components/Contact'
 
 const App = () => {
 
@@ -15,6 +16,7 @@ const App = () => {
       <Intro />
       <Skills />
       <Projects />
+      <Contact />
     </div>
   )
 }
