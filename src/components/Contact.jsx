@@ -8,7 +8,7 @@ const Contact = () => {
   if (state.succeeded) {
     return (
       <div className='gap-6 w-full h-auto border border-[#ffffff30] p-6 rounded-lg flex flex-col items-center'>
-        <h2 className='text-5xl font-bold mb-2'>~/Contact</h2>
+        <h2 className='text-5xl font-bold mb-2'>~/Reach Out</h2>
         <div className='flex flex-col items-center justify-center py-16 px-8 w-full max-w-md mx-auto'>
           <div className='bg-[#cc932930] border border-[#cc932950] rounded-full p-6 mb-6'>
             <MdCheckCircle size={60} className='text-[#cc9329]' />
