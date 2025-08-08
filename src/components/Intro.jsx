@@ -8,7 +8,7 @@ import info from '../data/MyInfo.js'
 const Intro = () => {
   return (
     <div className='flex flex-col lg:flex-row items-center justify-between w-full min-h-[56vh] lg:h-[56vh] bg-gradient-to-br from-[#cc9329] via-[#cc9329b7] to-[#b8851f] p-4 sm:p-6 lg:p-4 rounded-2xl overflow-hidden relative shadow-2xl'>
-      <div className='absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.1)_1px,transparent_1px)] bg-[length:20px_20px]'></div>
+      <div className='absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,3)_1px,transparent_1px)] bg-[length:20px_20px]'></div>
       
       <div className='w-full lg:w-1/2 h-auto lg:h-full py-4 px-2 sm:px-4 lg:px-3 flex flex-col justify-center lg:justify-between items-center lg:items-start text-center lg:text-left relative z-10'>
         <div className='flex flex-col gap-4 lg:gap-5 w-full'>
@@ -35,17 +35,17 @@ const Intro = () => {
         
         <div className='socials flex justify-center lg:justify-end items-center gap-4 sm:gap-6 w-full order-2 lg:order-1'>
           <a href={info.discord} target='_blank' className='group' rel='noopener noreferrer'>
-            <div className='p-3 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 hover:border-white/40 transition-all duration-300 hover:scale-110 hover:-translate-y-1'>
+            <div className='p-3 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 hover:border-white/40 transition-all duration-300 hover:-translate-y-1'>
               <FaDiscord size={28} className='sm:w-[32px] sm:h-[32px] text-white drop-shadow-sm'/>
             </div>
           </a>
           <a href={info.github} target='_blank' className='group' rel='noopener noreferrer'>
-            <div className='p-3 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 hover:border-white/40 transition-all duration-300 hover:scale-110 hover:-translate-y-1'>
+            <div className='p-3 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 hover:border-white/40 transition-all duration-300 hover:-translate-y-1'>
               <FaGithub size={28} className='sm:w-[32px] sm:h-[32px] text-white drop-shadow-sm'/>
             </div>
           </a>
           <a href={info.instagram} target='_blank' className='group' rel='noopener noreferrer'>
-            <div className='p-3 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 hover:border-white/40 transition-all duration-300 hover:scale-110 hover:-translate-y-1'>
+            <div className='p-3 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 hover:border-white/40 transition-all duration-300 hover:-translate-y-1'>
               <FaInstagram size={28} className='sm:w-[32px] sm:h-[32px] text-white drop-shadow-sm'/>
             </div>
           </a>
@@ -53,7 +53,7 @@ const Intro = () => {
 
         <div className='CTA flex flex-col justify-center items-center lg:items-end w-full order-1 lg:order-2'>
           <a href="mailto:akshprooo@gmail.com" className='w-full sm:w-auto'>
-            <button className='bg-black/80 backdrop-blur-sm border border-white/20 hover:bg-black/60 hover:border-white/40 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl text-white px-6 sm:px-8 lg:px-9 py-3 sm:py-4 rounded-xl text-base sm:text-lg lg:text-xl xl:text-2xl font-inria tracking-wide flex items-center justify-center lg:justify-start gap-2 w-full sm:w-auto group'>
+            <button className='cursor-pointer bg-black/80 backdrop-blur-sm border border-white/20 hover:bg-black/60 hover:border-white/40 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl text-white px-6 sm:px-8 lg:px-9 py-3 sm:py-4 rounded-xl text-base sm:text-lg lg:text-xl xl:text-2xl font-inria tracking-wide flex items-center justify-center lg:justify-start gap-2 w-full sm:w-auto group'>
               Work With Me 
               <MdArrowOutward size={20} className='sm:w-[24px] sm:h-[24px] lg:w-[28px] lg:h-[28px] group-hover:rotate-45 transition-transform duration-300' />
             </button>
