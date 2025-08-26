@@ -1,9 +1,8 @@
 import React, { useEffect } from 'react'
-import Intro from './components/Intro'
-import Projects from './components/Projects'
-import Skills from './components/Skills'
 import greet from './consoleThings'
-import Contact from './components/Contact'
+import Home from './pages/Home'
+import { Route, Routes } from 'react-router-dom'
+import NotFound from './pages/NotFound'
 
 const App = () => {
 
@@ -12,11 +11,13 @@ const App = () => {
   }, [])
 
   return (
-    <div className='min-h-screen p-5 flex flex-col items-center gap-7'>
-      <Intro />
-      <Skills />
-      <Projects />
-      <Contact />
+    <div className='min-h-screen flex flex-col items-center gap-7'>
+      
+      <Routes>
+        <Route path='/' element={<div className='p-5'><Home /></div>} />
+        <Route path='*' element={<NotFound />} />
+      </Routes>
+
     </div>
   )
 }

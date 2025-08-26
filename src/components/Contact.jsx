@@ -24,7 +24,7 @@ const Contact = () => {
 
   return (
     <div className='gap-6 w-full h-auto border border-[#ffffff30] p-6 rounded-lg flex flex-col items-center'>
-      <h2 className='text-5xl font-bold mb-2'>~/Contact</h2>
+      <h2 className='text-5xl font-bold mb-2'>~/Collab</h2>
       
       <div className='w-full max-w-2xl'>
         <div className='mb-6'>

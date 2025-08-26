@@ -9,7 +9,7 @@ const Intro = () => {
   return (
     <div className='flex flex-col lg:flex-row items-center justify-between w-full min-h-[56vh] lg:h-[56vh] bg-gradient-to-br from-[#cc9329] via-[#cc9329b7] to-[#b8851f] p-4 sm:p-6 lg:p-4 rounded-2xl overflow-hidden relative shadow-2xl'>
       <div className='absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,3)_1px,transparent_1px)] bg-[length:20px_20px]'></div>
-      
+
       <div className='w-full lg:w-1/2 h-auto lg:h-full py-4 px-2 sm:px-4 lg:px-3 flex flex-col justify-center lg:justify-between items-center lg:items-start text-center lg:text-left relative z-10'>
         <div className='flex flex-col gap-4 lg:gap-5 w-full'>
           <div className='flex items-center gap-3 w-full justify-center lg:justify-start'>
@@ -24,7 +24,7 @@ const Intro = () => {
           </h1>
           
           <div className='w-full max-w-full lg:max-w-none'>
-            <p className='text-sm sm:text-base md:text-lg lg:text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-white/95 drop-shadow-sm break-words hyphens-auto'>
+            <p className=' text-sm sm:text-base md:text-lg lg:text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-white/95 drop-shadow-sm break-words hyphens-auto'>
               {info.about || "I'm a passionate frontend developer who loves creating beautiful, responsive web experiences. With a keen eye for design and attention to detail, I transform ideas into engaging digital solutions that users love to interact with."}
             </p>
           </div>
@@ -51,10 +51,10 @@ const Intro = () => {
           </a>
         </div>
 
-        <div className='CTA flex flex-col justify-center items-center lg:items-end w-full order-1 lg:order-2'>
-          <a href="mailto:akshprooo@gmail.com" className='w-full sm:w-auto'>
-            <button className='cursor-pointer bg-black/80 backdrop-blur-sm border border-white/20 hover:bg-black/60 hover:border-white/40 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl text-white px-6 sm:px-8 lg:px-9 py-3 sm:py-4 rounded-xl text-base sm:text-lg lg:text-xl xl:text-2xl font-inria tracking-wide flex items-center justify-center lg:justify-start gap-2 w-full sm:w-auto group'>
-              Work With Me 
+        <div className='CTA flex flex-col gap-1 justify-center items-center lg:items-end w-full order-1 lg:order-2'>
+          <a href="/docs/resume.pdf" className='w-full sm:w-auto'>
+            <button className='cursor-pointer bg-black/80 backdrop-blur-sm border border-white/20 hover:bg-black/60 hover:border-white/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl text-white px-6 sm:px-8 lg:px-9 py-3 sm:py-4 rounded-xl text-base sm:text-lg lg:text-xl xl:text-2xl font-inria tracking-wide flex items-center justify-center lg:justify-start gap-2 w-full sm:w-auto group'>
+              Download Resume 
               <MdArrowOutward size={20} className='sm:w-[24px] sm:h-[24px] lg:w-[28px] lg:h-[28px] group-hover:rotate-45 transition-transform duration-300' />
             </button>
           </a>
