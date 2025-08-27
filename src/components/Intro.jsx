@@ -52,9 +52,9 @@ const Intro = () => {
         </div>
 
         <div className='CTA flex flex-col gap-1 justify-center items-center lg:items-end w-full order-1 lg:order-2'>
-          <a href="/docs/resume.pdf" className='w-full sm:w-auto'>
+          <a href="mailto:akshprooo@gmail.com" className='w-full sm:w-auto'>
             <button className='cursor-pointer bg-black/80 backdrop-blur-sm border border-white/20 hover:bg-black/60 hover:border-white/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl text-white px-6 sm:px-8 lg:px-9 py-3 sm:py-4 rounded-xl text-base sm:text-lg lg:text-xl xl:text-2xl font-inria tracking-wide flex items-center justify-center lg:justify-start gap-2 w-full sm:w-auto group'>
-              Download Resume 
+              Work With Me
               <MdArrowOutward size={20} className='sm:w-[24px] sm:h-[24px] lg:w-[28px] lg:h-[28px] group-hover:rotate-45 transition-transform duration-300' />
             </button>
           </a>
