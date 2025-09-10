@@ -17,12 +17,12 @@
     --color-bg: #111;
     --color-secondary: #916109;
     --color-text: #eee;
-    --font-caudex: 'Noto Sans', sans-serif;
+    --font-caudex: 'caudex';
     --font-inria: 'inria';
 }
 
 body{
     background-color: var(--color-bg);
     color: var(--color-text);
-    font-family: var(--font-caudex);
+    /* font-family: var(--font-caudex); */
 }

@@ -1,9 +1,17 @@
 const info = {
-    name: 'Aksh Tiwari',
-    title: 'FrontEnd Developer/Designer',
-    instagram: 'https://instagram.com/akshprooo.in',
-    github: 'https://github.com/akshprooo',
-    discord: 'https://discord.com/users/akshprooo',
-    Skills: ['HTML','CSS','JavaScript','React','Tailwind CSS','Bootstrap','Git','Figma', 'Next.js', 'Vite', 'BhaiLang', 'Python'],
+  name: 'Aksh Tiwari',
+  title: 'FullStack Developer',
+  instagram: 'https://instagram.com/akshprooo.in',
+  github: 'https://github.com/akshprooo',
+  discord: 'https://discord.com/users/akshprooo',
+  linkedin: 'https://linkedin.com/in/akshtiwariweb',
+
+  Skills: {
+    Frontend: ['HTML', 'CSS', 'JavaScript', 'React', 'NextJS', 'Tailwind CSS', 'Bootstrap'],
+    Backend: ['NodeJS', 'Express', 'Python'],
+    Tools: ['Git', 'Github', 'VS Code'],
+    Design: ['Figma', 'Lunacy', 'Penpot']
+  }
 }
+
 export default info;

@@ -1,6 +1,6 @@
 import React from 'react'
 import { MdArrowOutward } from "react-icons/md";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
 import info from '../data/MyInfo.js'
@@ -25,7 +25,7 @@ const Intro = () => {
           
           <div className='w-full max-w-full lg:max-w-none'>
             <p className=' text-sm sm:text-base md:text-lg lg:text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-white/95 drop-shadow-sm break-words hyphens-auto'>
-              {info.about || "I'm a passionate frontend developer who loves creating beautiful, responsive web experiences. With a keen eye for design and attention to detail, I transform ideas into engaging digital solutions that users love to interact with."}
+              {info.about || "I'm a passionate FullStack developer who loves creating beautiful, responsive  and functional web experiences With a keen eye for design and attention to detail, I transform ideas into engaging digital solutions that users love to interact with."}
             </p>
           </div>
         </div>
@@ -47,6 +47,11 @@ const Intro = () => {
           <a href={info.instagram} target='_blank' className='group' rel='noopener noreferrer'>
             <div className='p-3 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 hover:border-white/40 transition-all duration-300 hover:-translate-y-1'>
               <FaInstagram size={28} className='sm:w-[32px] sm:h-[32px] text-white drop-shadow-sm'/>
+            </div>
+          </a>
+          <a href={info.linkedin} target='_blank' className='group' rel='noopener noreferrer'>
+            <div className='p-3 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 hover:border-white/40 transition-all duration-300 hover:-translate-y-1'>
+              <FaLinkedin size={28} className='sm:w-[32px] sm:h-[32px] text-white drop-shadow-sm'/>
             </div>
           </a>
         </div>
